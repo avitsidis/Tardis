@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tardis", "Tardis\Tardis.csproj", "{962D9FE1-4967-4B9E-9509-D381937F5AF5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tardis.UnitTests", "Tardis.UnitTests\Tardis.UnitTests.csproj", "{1A524983-2600-422F-97EF-01DEE09F3169}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{962D9FE1-4967-4B9E-9509-D381937F5AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{962D9FE1-4967-4B9E-9509-D381937F5AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{962D9FE1-4967-4B9E-9509-D381937F5AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A524983-2600-422F-97EF-01DEE09F3169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A524983-2600-422F-97EF-01DEE09F3169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A524983-2600-422F-97EF-01DEE09F3169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A524983-2600-422F-97EF-01DEE09F3169}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
