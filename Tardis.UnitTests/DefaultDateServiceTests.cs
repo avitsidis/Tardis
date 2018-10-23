@@ -9,16 +9,15 @@ namespace Tardis.UnitTests
         public class CurrentDateTime
         {
             [Fact]
-            public async Task Should_AlwaysGiveTheSameDate()
+            public void Should_AlwaysGiveTheSameDate()
             {
                 //Arrange
-                var date = new DateTime(1986, 3, 12, 11, 42, 33, 100);
+                var date = DateTime.Now;
                 var service = new DefaultDateService();
+                var maxDiffMs = TimeSpan.FromMilliseconds(100);
                 //Act Assert
                 var diffWithNow = DateTime.Now - service.CurrentDateTime;
-                Assert.True(diffWithNow < Timespan.FromMilliseconds(100));
-                Task.Delay(100);
-                Assert.Equals(date, service.CurrentDateTime);
+                Assert.True(diffWithNow < maxDiffMs);
             }
         }
     }

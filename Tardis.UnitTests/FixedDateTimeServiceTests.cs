@@ -1,4 +1,5 @@
 using System;
+using System.Threading.Tasks;
 using Xunit;
 
 namespace Tardis.UnitTests
@@ -14,9 +15,9 @@ namespace Tardis.UnitTests
                 var date = new DateTime(1986, 3, 12, 11, 42, 33,100);
                 var service = new FixedDateTimeService(date);
                 //Act Assert
-                Assert.Equals(date, service.CurrentDateTime);
-                Task.Delay(100);
-                Assert.Equals(date, service.CurrentDateTime);
+                Assert.Equal(date, service.CurrentDateTime);
+                await Task.Delay(100);
+                Assert.Equal(date, service.CurrentDateTime);
             }
         }
 
