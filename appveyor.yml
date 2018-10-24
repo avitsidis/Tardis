@@ -9,3 +9,7 @@ dotnet_csproj:
   informational_version: '{version}'
 build:
   verbosity: minimal
+build_script:
+- ps: dotnet build -c Release
+- ps: dotnet test Tardis.UnitTests
+- ps: dotnet pack

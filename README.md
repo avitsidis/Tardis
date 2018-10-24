@@ -5,7 +5,6 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/ntaa0qyxw0nwcvr1?svg=true)](https://ci.appveyor.com/project/avitsidis/tardis)
 [![Build status](https://ci.appveyor.com/api/projects/status/ntaa0qyxw0nwcvr1/branch/master?svg=true)](https://ci.appveyor.com/project/avitsidis/tardis/branch/master)
 
-
 ## Description
 
 Tardis is POC library defining a mockable DateService. I use this project to test how to publish package in nuget and configure it with online CI
