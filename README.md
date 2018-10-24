@@ -2,6 +2,9 @@
 
 [![Build Status](https://travis-ci.com/avitsidis/Tardis.svg?branch=master)](https://travis-ci.com/avitsidis/Tardis)
 [![NuGet](https://img.shields.io/nuget/v/Tardis.svg?style=flat)](https://www.nuget.org/packages/Tardis/)
+[![Build status](https://ci.appveyor.com/api/projects/status/ntaa0qyxw0nwcvr1?svg=true)](https://ci.appveyor.com/project/avitsidis/tardis)
+[![Build status](https://ci.appveyor.com/api/projects/status/ntaa0qyxw0nwcvr1/branch/master?svg=true)](https://ci.appveyor.com/project/avitsidis/tardis/branch/master)
+
 
 ## Description
 
