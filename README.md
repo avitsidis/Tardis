@@ -1,5 +1,11 @@
 # Tardis
 
+## Status image
+
+[![Build Status](https://travis-ci.com/avitsidis/Tardis.svg?branch=master)](https://travis-ci.com/avitsidis/Tardis)
+
+## Description
+
 Tardis is POC library defining a mockable DateService. I use this project to test how to publish package in nuget and configure it with online CI
 
 ## Publish to nuget
