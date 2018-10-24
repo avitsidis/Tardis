@@ -1,5 +1,6 @@
 language: csharp
 solution: Tardis.sln
+mono: none
 dotnet: 2.1
 script:
 - dotnet build -c Release
