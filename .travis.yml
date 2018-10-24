@@ -4,5 +4,5 @@ mono: none
 dotnet: 2.1
 script:
 - dotnet build -c Release
-- dotnet test .\Tardis.UnitTests\Tardis.UnitTests.csproj
+- dotnet test Tardis.UnitTests
 - dotnet pack -c Release
