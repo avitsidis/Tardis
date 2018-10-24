@@ -1,8 +1,7 @@
 # Tardis
 
-## Status image
-
 [![Build Status](https://travis-ci.com/avitsidis/Tardis.svg?branch=master)](https://travis-ci.com/avitsidis/Tardis)
+[![NuGet](https://img.shields.io/nuget/v/Tardis.svg?style=flat)](https://www.nuget.org/packages/Tardis/)
 
 ## Description
 
